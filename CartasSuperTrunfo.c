@@ -15,7 +15,7 @@ float pib;
 int numerodepontosturisticos;
 
   // Área para entrada de dados
-  scanf("%s", &estado);
+  scanf("%c", &estado);
   scanf("%s", &codigodacarta);
   scanf("%s", &nomedacidade);
   scanf("%d", &populacao);
@@ -33,6 +33,6 @@ int numerodepontosturisticos;
   printf("PIB: %f\n", pib);
   printf("Número de Pontos Turísticos: %d", numerodepontosturisticos);
 
-  
+
 return 0;
 } 
